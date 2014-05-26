@@ -21,6 +21,9 @@
 		03E02E4519335DB5005076A2 /* ARAppDelegateService.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E4419335DB5005076A2 /* ARAppDelegateService.m */; };
 		03E02E4919335EED005076A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E4819335EED005076A2 /* AppDelegate.m */; };
 		03E02E4D193361B6005076A2 /* ARAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E4C193361B6005076A2 /* ARAppDelegateSpec.m */; };
+		03E02E52193365BC005076A2 /* ARDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E51193365BC005076A2 /* ARDataStore.m */; };
+		03E02E5519336A23005076A2 /* ARDataStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E5419336A23005076A2 /* ARDataStoreModel.m */; };
+		03E02E5719336DEE005076A2 /* ARDataStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */; };
 		8C0F3B5356A34D7FAB9ABDCD /* libPods-archerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CF688566FD49E78D37F41D /* libPods-archerTests.a */; };
 		F53CE970543B474CBC981C88 /* libPods-archer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B46263CEA44C0B7C05902 /* libPods-archer.a */; };
 /* End PBXBuildFile section */
@@ -56,6 +59,11 @@
 		03E02E4719335EED005076A2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03E02E4819335EED005076A2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03E02E4C193361B6005076A2 /* ARAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegateSpec.m; sourceTree = "<group>"; };
+		03E02E50193365BC005076A2 /* ARDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDataStore.h; sourceTree = "<group>"; };
+		03E02E51193365BC005076A2 /* ARDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDataStore.m; sourceTree = "<group>"; };
+		03E02E5319336A23005076A2 /* ARDataStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDataStoreModel.h; sourceTree = "<group>"; };
+		03E02E5419336A23005076A2 /* ARDataStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDataStoreModel.m; sourceTree = "<group>"; };
+		03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDataStoreSpec.m; sourceTree = "<group>"; };
 		3B301AAA11CB47DABE6DCB70 /* Pods-archer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archer.xcconfig"; path = "Pods/Pods-archer.xcconfig"; sourceTree = "<group>"; };
 		491B46263CEA44C0B7C05902 /* libPods-archer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-archer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A4ECC5AB8A44E0AF4FB534 /* Pods-archerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archerTests.xcconfig"; path = "Pods/Pods-archerTests.xcconfig"; sourceTree = "<group>"; };
@@ -125,8 +133,8 @@
 		03E02E1919335BBF005076A2 /* archer */ = {
 			isa = PBXGroup;
 			children = (
-				03E02E4F1933642E005076A2 /* ARDataStore */,
 				03E02E4219335DA4005076A2 /* ARAppDelegate */,
+				03E02E4F1933642E005076A2 /* ARDataStore */,
 				03E02E4619335EDA005076A2 /* Source */,
 				03E02E2519335BBF005076A2 /* Images.xcassets */,
 				03E02E1A19335BBF005076A2 /* Supporting Files */,
@@ -150,6 +158,7 @@
 			children = (
 				03E02E3319335BBF005076A2 /* Supporting Files */,
 				03E02E4C193361B6005076A2 /* ARAppDelegateSpec.m */,
+				03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */,
 			);
 			path = archerTests;
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 		03E02E4619335EDA005076A2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				03E02E5819337232005076A2 /* Models */,
 				03E02E4E19336413005076A2 /* Services */,
 				03E02E4719335EED005076A2 /* AppDelegate.h */,
 				03E02E4819335EED005076A2 /* AppDelegate.m */,
@@ -194,8 +204,19 @@
 		03E02E4F1933642E005076A2 /* ARDataStore */ = {
 			isa = PBXGroup;
 			children = (
+				03E02E50193365BC005076A2 /* ARDataStore.h */,
+				03E02E51193365BC005076A2 /* ARDataStore.m */,
+				03E02E5319336A23005076A2 /* ARDataStoreModel.h */,
+				03E02E5419336A23005076A2 /* ARDataStoreModel.m */,
 			);
 			name = ARDataStore;
+			sourceTree = "<group>";
+		};
+		03E02E5819337232005076A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +271,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "YouLapse Oy";
 				TargetAttributes = {
+					03E02E0F19335BBF005076A2 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					03E02E2A19335BBF005076A2 = {
 						TestTargetID = 03E02E0F19335BBF005076A2;
 					};
@@ -363,6 +391,8 @@
 			files = (
 				03E02E4919335EED005076A2 /* AppDelegate.m in Sources */,
 				03E02E4519335DB5005076A2 /* ARAppDelegateService.m in Sources */,
+				03E02E5519336A23005076A2 /* ARDataStoreModel.m in Sources */,
+				03E02E52193365BC005076A2 /* ARDataStore.m in Sources */,
 				03E02E2019335BBF005076A2 /* main.m in Sources */,
 				03E02E2419335BBF005076A2 /* ARAppDelegate.m in Sources */,
 			);
@@ -373,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E02E4D193361B6005076A2 /* ARAppDelegateSpec.m in Sources */,
+				03E02E5719336DEE005076A2 /* ARDataStoreSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

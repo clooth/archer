@@ -12,9 +12,11 @@ pod 'MAObjCRuntime', '~> 0.0'
 pod 'AFNetworking', '~> 2.2'
 pod 'Reachability', '~> 3.1'
 
+# Database and Models
+pod 'NanoStore', '~> 2.7'
+
 end
 
-target "archerTests" do
 target "archerTests", exclusive: true do
 
 # Behaviour Driven Development
