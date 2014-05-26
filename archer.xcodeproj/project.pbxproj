@@ -24,6 +24,12 @@
 		03E02E52193365BC005076A2 /* ARDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E51193365BC005076A2 /* ARDataStore.m */; };
 		03E02E5519336A23005076A2 /* ARDataStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E5419336A23005076A2 /* ARDataStoreModel.m */; };
 		03E02E5719336DEE005076A2 /* ARDataStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */; };
+		03E02E5C193373E2005076A2 /* ARNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E5B193373E2005076A2 /* ARNavigationController.m */; };
+		03E02E62193377F6005076A2 /* ARGIFMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E61193377F6005076A2 /* ARGIFMaker.m */; };
+		03E02E6A19337CA0005076A2 /* ARColorMacrosSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E6919337CA0005076A2 /* ARColorMacrosSpec.m */; };
+		03E02E6E193380C2005076A2 /* ARRandomizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E6D193380C2005076A2 /* ARRandomizer.m */; };
+		03E02E72193383A6005076A2 /* ARPathFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E71193383A6005076A2 /* ARPathFinder.m */; };
+		03E02E7619338700005076A2 /* UIImage+ARExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E02E7519338700005076A2 /* UIImage+ARExtensions.m */; };
 		8C0F3B5356A34D7FAB9ABDCD /* libPods-archerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CF688566FD49E78D37F41D /* libPods-archerTests.a */; };
 		F53CE970543B474CBC981C88 /* libPods-archer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B46263CEA44C0B7C05902 /* libPods-archer.a */; };
 /* End PBXBuildFile section */
@@ -64,6 +70,19 @@
 		03E02E5319336A23005076A2 /* ARDataStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDataStoreModel.h; sourceTree = "<group>"; };
 		03E02E5419336A23005076A2 /* ARDataStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDataStoreModel.m; sourceTree = "<group>"; };
 		03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDataStoreSpec.m; sourceTree = "<group>"; };
+		03E02E5A193373E2005076A2 /* ARNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNavigationController.h; sourceTree = "<group>"; };
+		03E02E5B193373E2005076A2 /* ARNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNavigationController.m; sourceTree = "<group>"; };
+		03E02E60193377F6005076A2 /* ARGIFMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGIFMaker.h; sourceTree = "<group>"; };
+		03E02E61193377F6005076A2 /* ARGIFMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGIFMaker.m; sourceTree = "<group>"; };
+		03E02E6419337BC1005076A2 /* ARColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARColorMacros.h; sourceTree = "<group>"; };
+		03E02E6519337C5E005076A2 /* ARMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARMacros.h; sourceTree = "<group>"; };
+		03E02E6919337CA0005076A2 /* ARColorMacrosSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARColorMacrosSpec.m; sourceTree = "<group>"; };
+		03E02E6C193380C2005076A2 /* ARRandomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARRandomizer.h; sourceTree = "<group>"; };
+		03E02E6D193380C2005076A2 /* ARRandomizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARRandomizer.m; sourceTree = "<group>"; };
+		03E02E70193383A6005076A2 /* ARPathFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPathFinder.h; sourceTree = "<group>"; };
+		03E02E71193383A6005076A2 /* ARPathFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPathFinder.m; sourceTree = "<group>"; };
+		03E02E7419338700005076A2 /* UIImage+ARExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARExtensions.h"; sourceTree = "<group>"; };
+		03E02E7519338700005076A2 /* UIImage+ARExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARExtensions.m"; sourceTree = "<group>"; };
 		3B301AAA11CB47DABE6DCB70 /* Pods-archer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archer.xcconfig"; path = "Pods/Pods-archer.xcconfig"; sourceTree = "<group>"; };
 		491B46263CEA44C0B7C05902 /* libPods-archer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-archer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A4ECC5AB8A44E0AF4FB534 /* Pods-archerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archerTests.xcconfig"; path = "Pods/Pods-archerTests.xcconfig"; sourceTree = "<group>"; };
@@ -133,10 +152,8 @@
 		03E02E1919335BBF005076A2 /* archer */ = {
 			isa = PBXGroup;
 			children = (
-				03E02E4219335DA4005076A2 /* ARAppDelegate */,
-				03E02E4F1933642E005076A2 /* ARDataStore */,
+				03E02E781933892C005076A2 /* AR */,
 				03E02E4619335EDA005076A2 /* Source */,
-				03E02E2519335BBF005076A2 /* Images.xcassets */,
 				03E02E1A19335BBF005076A2 /* Supporting Files */,
 			);
 			path = archer;
@@ -156,9 +173,10 @@
 		03E02E3219335BBF005076A2 /* archerTests */ = {
 			isa = PBXGroup;
 			children = (
+				03E02E6819337C93005076A2 /* ARMacros */,
+				03E02E6619337C78005076A2 /* ARAppDelegate */,
+				03E02E6719337C7C005076A2 /* ARDataStore */,
 				03E02E3319335BBF005076A2 /* Supporting Files */,
-				03E02E4C193361B6005076A2 /* ARAppDelegateSpec.m */,
-				03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */,
 			);
 			path = archerTests;
 			sourceTree = "<group>";
@@ -186,10 +204,14 @@
 		03E02E4619335EDA005076A2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				03E02E7919338959005076A2 /* Assets */,
+				03E02E7719338923005076A2 /* Controllers */,
 				03E02E5819337232005076A2 /* Models */,
 				03E02E4E19336413005076A2 /* Services */,
+				03E02E7A1933895D005076A2 /* Views */,
 				03E02E4719335EED005076A2 /* AppDelegate.h */,
 				03E02E4819335EED005076A2 /* AppDelegate.m */,
+				03E02E2519335BBF005076A2 /* Images.xcassets */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -217,6 +239,120 @@
 			children = (
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		03E02E59193373CC005076A2 /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E5A193373E2005076A2 /* ARNavigationController.h */,
+				03E02E5B193373E2005076A2 /* ARNavigationController.m */,
+			);
+			name = ARViewController;
+			sourceTree = "<group>";
+		};
+		03E02E5F193377CF005076A2 /* ARGIFMaker */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E60193377F6005076A2 /* ARGIFMaker.h */,
+				03E02E61193377F6005076A2 /* ARGIFMaker.m */,
+			);
+			name = ARGIFMaker;
+			sourceTree = "<group>";
+		};
+		03E02E6319337BA1005076A2 /* ARMacros */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E6419337BC1005076A2 /* ARColorMacros.h */,
+				03E02E6519337C5E005076A2 /* ARMacros.h */,
+			);
+			name = ARMacros;
+			sourceTree = "<group>";
+		};
+		03E02E6619337C78005076A2 /* ARAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E4C193361B6005076A2 /* ARAppDelegateSpec.m */,
+			);
+			name = ARAppDelegate;
+			sourceTree = "<group>";
+		};
+		03E02E6719337C7C005076A2 /* ARDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E5619336DEE005076A2 /* ARDataStoreSpec.m */,
+			);
+			name = ARDataStore;
+			sourceTree = "<group>";
+		};
+		03E02E6819337C93005076A2 /* ARMacros */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E6919337CA0005076A2 /* ARColorMacrosSpec.m */,
+			);
+			name = ARMacros;
+			sourceTree = "<group>";
+		};
+		03E02E6B193380B5005076A2 /* ARRandomGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E6C193380C2005076A2 /* ARRandomizer.h */,
+				03E02E6D193380C2005076A2 /* ARRandomizer.m */,
+			);
+			name = ARRandomGenerator;
+			sourceTree = "<group>";
+		};
+		03E02E6F19338390005076A2 /* ARPathFinder */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E70193383A6005076A2 /* ARPathFinder.h */,
+				03E02E71193383A6005076A2 /* ARPathFinder.m */,
+			);
+			name = ARPathFinder;
+			sourceTree = "<group>";
+		};
+		03E02E73193386ED005076A2 /* ARCategories */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E7419338700005076A2 /* UIImage+ARExtensions.h */,
+				03E02E7519338700005076A2 /* UIImage+ARExtensions.m */,
+			);
+			name = ARCategories;
+			sourceTree = "<group>";
+		};
+		03E02E7719338923005076A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		03E02E781933892C005076A2 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				03E02E73193386ED005076A2 /* ARCategories */,
+				03E02E4219335DA4005076A2 /* ARAppDelegate */,
+				03E02E4F1933642E005076A2 /* ARDataStore */,
+				03E02E5F193377CF005076A2 /* ARGIFMaker */,
+				03E02E6F19338390005076A2 /* ARPathFinder */,
+				03E02E6B193380B5005076A2 /* ARRandomGenerator */,
+				03E02E59193373CC005076A2 /* ARViewController */,
+				03E02E6319337BA1005076A2 /* ARMacros */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
+		03E02E7919338959005076A2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		03E02E7A1933895D005076A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,12 +525,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E02E62193377F6005076A2 /* ARGIFMaker.m in Sources */,
 				03E02E4919335EED005076A2 /* AppDelegate.m in Sources */,
 				03E02E4519335DB5005076A2 /* ARAppDelegateService.m in Sources */,
 				03E02E5519336A23005076A2 /* ARDataStoreModel.m in Sources */,
+				03E02E6E193380C2005076A2 /* ARRandomizer.m in Sources */,
 				03E02E52193365BC005076A2 /* ARDataStore.m in Sources */,
+				03E02E5C193373E2005076A2 /* ARNavigationController.m in Sources */,
 				03E02E2019335BBF005076A2 /* main.m in Sources */,
+				03E02E7619338700005076A2 /* UIImage+ARExtensions.m in Sources */,
 				03E02E2419335BBF005076A2 /* ARAppDelegate.m in Sources */,
+				03E02E72193383A6005076A2 /* ARPathFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E02E4D193361B6005076A2 /* ARAppDelegateSpec.m in Sources */,
+				03E02E6A19337CA0005076A2 /* ARColorMacrosSpec.m in Sources */,
 				03E02E5719336DEE005076A2 /* ARDataStoreSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
