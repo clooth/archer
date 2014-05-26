@@ -15,3 +15,5 @@ profile
 *.xcworkspace
 docset-installed.txt
 .DS_Store
+Pods/
+Podfile.lock

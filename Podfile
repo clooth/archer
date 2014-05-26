@@ -8,9 +8,17 @@ target "archer" do
 # Objective-C Runtime Extensions
 pod 'MAObjCRuntime', '~> 0.0'
 
+# Networking Libraries
+pod 'AFNetworking', '~> 2.2'
+pod 'Reachability', '~> 3.1'
+
 end
 
 target "archerTests" do
+target "archerTests", exclusive: true do
+
+# Behaviour Driven Development
+pod 'Kiwi/XCTest'
 
 end
 
